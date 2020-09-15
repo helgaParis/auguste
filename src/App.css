@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+
+.contentdiv {
+  padding: 100px ;
+  background-color: #76a3e7;
+}
+
+nav
+{
+  padding:20px 10px 10px 10px ;
+  background: rgb(255, 166, 0);
+}
+
+nav ul
+{
+  font-size:20px;
+  list-style-type: none;
+}
+
+nav ul a
+{
+  color: rgb(172, 13, 20) ;
+}
+
+nav ul li
+{
+  margin-bottom:40px;
+  margin-right: 40px;
+}
+
+.chat1, .chat2, .chat3
+{
+  height: 100%;
+  width: 50%;
+}
+
+.video
+{
+  margin-bottom:50px;
+}
+
+form {
+  overflow:auto;
+  box-sizing: content-box;
+  width: 100%;
+  color: red;
+}
