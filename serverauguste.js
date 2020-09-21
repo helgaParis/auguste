@@ -3,18 +3,12 @@ const app = express(); // create express app
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const path = require("path");
-// const { callbackify } = require("util");
-const PORT = 5000;
-// const MongoClient = require('mongodb').MongoClient;
-
-// const usersRoutes = express.Router();
+const PORT = 8003;
 
 require('./server/database');
 
-
 app.use(cors());
 app.use(bodyParser.json());
-
 
 // API
 const users = require('./server/api/users');
@@ -25,8 +19,7 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'build'))
 })
 
-
-// start express server on port 5000
+// start express server on port 8003
 app.listen(PORT, () => {
   console.log("server started on port " + PORT);
 });

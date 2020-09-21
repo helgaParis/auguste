@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import cat1 from '../img/chat1.jpg';
+import caique1 from '../img/caique_accueil.jpeg';
 import Form from '../contents/Form';
 
 class Home extends Component {
@@ -7,8 +7,8 @@ render() {
     return (
         <div className="contentdiv home">
             <div>
-            <p>Ceci est un site pour présenter Auguste, notre perroquet, port 5000:</p>
-            <img src={cat1} className="chat1"></img>
+            <p>Ceci est un site pour présenter Auguste, notre perroquet, port 8003:</p>
+            <img src={caique1} className="caique_accueil"></img>
             </div>
             <div>
             <Form/>
