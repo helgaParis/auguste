@@ -7,7 +7,7 @@ render() {
     return (
         <div className="contentdiv home">
             <div>
-            <p>Ceci est un site pour présenter Auguste, notre perroquet, port 8003:</p>
+            <p>Ceci est un site pour présenter Auguste, notre perroquet:</p>
             <img src={caique1} className="caique_accueil"></img>
             </div>
             <div>
